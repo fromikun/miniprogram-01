@@ -1,27 +1,42 @@
 /**app.wxss**/
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-sizing: border-box;
-} 
 
+/* 按钮样式 */
 button {
   background: initial;
 }
 
-button:focus{
+button:focus {
   outline: 0;
 }
 
-button::after{
+button::after {
   border: none;
 }
 
-
+/* page全局样式 */
 page {
-  background: #f6f6f6;
+  background: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  align-items: center;
+}
+/* 居中 */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 居中了，但是没有完全居中 */
+.center-1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+/* 居中了，但是没有完全居中 */
+.center-2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }

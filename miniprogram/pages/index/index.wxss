@@ -1,0 +1,15 @@
+/* 标题 */
+.title {
+  font-size: 3.5vh;
+  font-weight: bolder;
+
+  width: 100vw;
+  height: 30vh;
+  flex-direction: column;
+}
+
+/* main */
+.body {
+  width: 100vw;
+  height: 70vh;
+}

@@ -1,2 +1,27 @@
 <!--pages/index/index.wxml-->
-<view >in the here</view>
+
+<!-- 标题 -->
+<view class="title center-1">
+    <image src="../../images/东东.png" style="width: 125px;height: 125px;border: 1px solid green;border-radius: 100%;margin:15px 0 15px 0"></image>
+    <view class="center">
+      无聊的东东
+    </view>
+</view>
+<!-- main -->
+<view class="body">
+   <view style="padding: 10px 50px 10px 50px">
+    hello，这是一个新手做的小程序，技术不行，时间来补，终有一日，必成大器！
+  </view >
+
+  <view class="center-2" style="flex:1;">
+    <view >往期网的东西：</view>
+    <view >1</view>
+    <view >1</view>
+    <view >1</view>
+  </view>
+
+</view>
+<!-- 到底了 -->
+<view >
+<button ></button>
+</view>
