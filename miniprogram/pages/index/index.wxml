@@ -13,15 +13,17 @@
     hello，这是一个新手做的小程序，技术不行，时间来补，终有一日，必成大器！
   </view >
 
-  <view class="center-2" style="flex:1;">
-    <view >往期网的东西：</view>
-    <view >1</view>
-    <view >1</view>
-    <view >1</view>
+<!-- link -->
+  <view class="center-2" style="flex:1;flex-wrap: wrap;padding: 50px 10px 0px 10px;">
+    <view>往期网的东西：</view>
+    <navigator url="../yuanDao-1/index," class="wenZi center">元岛1.0</navigator>
+    <navigator url="../index/?/index" class="wenZi center">02</navigator>
+    <navigator url="../index/?/index" class="wenZi center">03</navigator>
+    <navigator url="../index/?/index" class="wenZi center">04</navigator>
+    <navigator url="../index/?/index" class="wenZi center">05</navigator>
   </view>
 
 </view>
 <!-- 到底了 -->
 <view >
-<button ></button>
 </view>
