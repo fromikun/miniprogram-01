@@ -1,1 +1,8 @@
 /* pages/yuanDao-1/index,.wxss */
+
+.top{
+  width: 100vw;
+  height: 25vh;
+  background-color: rgb(221, 221, 221);
+}
+

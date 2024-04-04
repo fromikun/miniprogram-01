@@ -1,2 +1,7 @@
 <!--pages/yuanDao-1/index,.wxml-->
-<text>pages/yuanDao-1/index,.wxml</text>
+<view class="top center column">
+<image class="icon" src="../../images/元岛.png" mode=""/>
+</view>
+
+<view class="body" bind:tap="change">你好，元岛1.0，心情+({{hello}})</view>
+<view class="bottom"></view>

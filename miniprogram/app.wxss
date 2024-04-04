@@ -1,5 +1,12 @@
 /**app.wxss**/
 
+/* icon */
+.icon{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
 /* 按钮样式 */
 button {
   background: initial;
@@ -39,4 +46,8 @@ page {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+}
+/* column */
+.column{
+  flex-direction: column;
 }

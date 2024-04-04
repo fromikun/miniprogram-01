@@ -5,7 +5,12 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    hello:0
+  },
+  change: function(){
+    this.setData({
+      hello:this.data.hello = Math.floor(Math.random()*(Math.pow(10,10)-(Math.pow(10,9)-1) + 1))+Math.pow(10,9)
+    })
   },
 
   /**
